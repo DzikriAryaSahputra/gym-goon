@@ -1,0 +1,45 @@
+# Environment & Kredensial Rahasia
+.env
+.env.*
+!.env.example
+config/database.local.php
+
+# File Backup / Archive / Temporary
+*.zip
+*.tar.gz
+*.rar
+*.bak
+*.sql.gz
+db_vip_request.php
+
+# Dependencies (jika nanti pakai Composer / Node)
+/vendor/
+/node_modules/
+composer.lock
+package-lock.json
+
+# Log & Cache
+*.log
+error_log
+/logs/
+/tmp/
+/cache/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
